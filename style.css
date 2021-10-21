@@ -1,0 +1,248 @@
+body {
+    background-color: white;
+    
+}
+
+main {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+#jumbo-div {
+    text-align: center;
+    background-color: #990000;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+    margin-bottom: 0 !important;
+}
+#top-h1, #top-p {
+    color: white;
+}
+
+#add-button {
+    display: block;
+    width: 75%;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: black;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*#remove-button {
+    display: block;
+    width: 75%;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: black;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#remove-button:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#deletion-prompt {
+    text-align: center;
+    visibility: hidden;
+}*/
+
+/* Footer */
+body, .sticky-footer-wrapper {
+    min-height: 100vh;
+}
+
+.flex-fill {
+    flex: 1 1 auto;
+}
+
+footer {
+    background-color: #343a40;
+    text-align: center;
+}
+footer p {
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+/* Responsive Body (main will contain dynamic content) */
+@media only screen and (max-width: 576px) {
+    main {
+        background-color: #d9d9d9;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 577px) {
+    main {
+        background-color: #d9d9d9;
+        width: 75%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+@media only screen and (min-width: 769px) {
+    main {
+        background-color: #d9d9d9;
+        width: 60%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+@media only screen and (min-width: 993px) {
+    main {
+        background-color: #d9d9d9;
+        width: 50%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+@media only screen and (min-width: 1201px) {
+    main {
+        background-color: #d9d9d9;
+        width: 40%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+/*Profile*/
+#profile-name-label, #profile-name, .profile-info {
+    text-align: center;
+}
+
+.profile-label {
+    margin-top: 20px;
+    font-size: 100%;
+}
+
+.subsequent-profile-label {
+    margin-top: 60px;
+    font-size: 100%;
+}
+
+#edit-link {
+    display: block;
+    width: 75%;
+    text-align: center;
+    color: black;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*Edit Profile*/
+.edit-prof-label-first, .edit-prof-label-subsequent {
+    display: block;
+    text-align: center;
+}
+.edit-prof-label-first {
+    margin-top: 20px;
+}
+.edit-prof-label-subsequent {
+    margin-top: 60px;
+}
+.edit-prof-field-last {
+    margin-bottom: 20px;
+}
+.edit-prof-field {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#save-button {
+    display: block;
+    width: 75%;
+    border: 1px solid black;
+    color: black;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+#save-button:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+/*Create Event*/
+.create-event-label-first {
+    margin-top: 20px;
+}
+.create-event-label-subsequent {
+    margin-top: 60px;
+}
+.create-event-label-first, .create-event-label-subsequent {
+    display: block;
+    text-align: center;
+}
+
+.create-event-field, #event-desc {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#event-desc {
+    margin-bottom: 20px;
+}
+
+#finish-create-event {
+    display: block;
+    width: 75%;
+    border: 1px solid black;
+    color: black;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+#finish-create-event:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+/* Engagement Banner */
+.event-banner-container {
+    background-color: white;
+    width: 95%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.event-banner-header, .event-banner-desc, .event-banner-name {
+    text-align: center;
+}
+.event-banner-name {
+    font-weight: bold;
+}
+
+.event-remove {
+    display: block;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.event-remove:hover {
+    color: red;
+    border: 1px solid red;
+    cursor: pointer;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Creat Event</title>
+        <!--CSS-->
+        <link rel="stylesheet" href="bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+        <!--Javascript-->
+        <script src="jquery.js"></script>
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div class="d-flex flex-column sticky-footer-wrapper">
+            <header>
+                <div id="jumbo-div" class="jumbotron jumbotron-fluid">
+                    <div class="container">
+                        <h1 id="top-h1">Creat Event</h1>
+                    </div>
+                </div>
+                <nav class="navbar navbar-expand-sm bg-dark navbar-dark justify-content-center">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="profile.html">Profile</a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+
+            <main class="flex-fill">
+                <label class="create-event-label-first" for="event-name">Event Name</label>
+                <input type="text" id="event-name" class="create-event-field" name="event-name">
+
+                <label class="create-event-label-subsequent" for="event-date">Event Date</label>
+                <input type="text" id="event-date" class="create-event-field" name="event-date">
+
+                <label class="create-event-label-subsequent" for="event-time">Event time</label>
+                <input type="text" id="event-time" class="create-event-field" name="event-time">
+
+                <label class="create-event-label-subsequent" for="event-desc">Event Description</label>
+                <textarea rows="4" id="event-desc" name="event-desc"></textarea>
+
+                <p tabindex="0" id="finish-create-event">Post</p> <!--Javascript magic goes here-->
+            </main>
+
+            <footer>
+                <p>&copy; Sam Miller 2020</p>
+            </footer>
+        </div>
+    </body>
+</html>

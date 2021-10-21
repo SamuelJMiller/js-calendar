@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Edit Profile</title>
+        <!--CSS-->
+        <link rel="stylesheet" href="bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+        <!--Javascript-->
+        <script src="jquery.js"></script>
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div class="d-flex flex-column sticky-footer-wrapper">
+            <header>
+                <div id="jumbo-div" class="jumbotron jumbotron-fluid">
+                    <div class="container">
+                        <h1 id="top-h1">Edit Profile</h1>
+                    </div>
+                </div>
+                <nav class="navbar navbar-expand-sm bg-dark navbar-dark justify-content-center">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="profile.html">Profile</a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+
+            <main class="flex-fill">
+                <label class="edit-prof-label-first" for="new-name">Your New Name:</label>
+                <input type="text" id="new-name" class="edit-prof-field" name="new-name">
+
+                <label class="edit-prof-label-subsequent" for="new-birthday">Your New Birthday:</label>
+                <input type="text" id="new-birthday" class="edit-prof-field" name="new-birthday">
+
+                <label class="edit-prof-label-subsequent" for="new-email">Your New Email:</label>
+                <input type="text" id="new-email" class="edit-prof-field edit-prof-field-last" name="new-email">
+
+                <p tabindex="0" id="save-button">Save Info</p> <!--Javascript magic goes here-->
+            </main>
+
+            <footer>
+                <p>&copy; Sam Miller 2020</p>
+            </footer>
+        </div>
+    </body>
+</html>

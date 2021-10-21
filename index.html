@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Sam's Calendar</title>
+        <!--CSS-->
+        <link rel="stylesheet" href="bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+        <!--Javascript-->
+        <script src="jquery.js"></script>
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div class="d-flex flex-column sticky-footer-wrapper">
+            <header>
+                <div id="jumbo-div" class="jumbotron jumbotron-fluid">
+                    <div class="container">
+                        <h1 id="top-h1">Sam's Calendar</h1>
+                        <p id="top-p">Plan your Events</p>
+                    </div>
+                </div>
+                <nav class="navbar navbar-expand-sm bg-dark navbar-dark justify-content-center">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="profile.html">Profile</a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+
+            <main id="index-main" class="flex-fill">
+            <!--<div class="event-banner-container">
+                    <h2 class="event-banner-header">Tuesday, November 16, 9:15 AM</h2>
+                    <p class="event-banner-desc">Dentist Appointment</p>
+                    <div class="event-banner-buttons">
+                        <a class="event-edit" href="#">Edit</a>
+                        <a class="event-remove" href="#">Remove</a>
+                    </div>
+                </div> Event Container-->
+                <a id="add-button" href="newevent.html">Add Event</a>
+                <!--<p tabindex="0" id="remove-button">Remove Events</p>
+                <p id="deletion-prompt">Click which events you want to remove.</p>-->
+            </main>
+
+            <footer>
+                <p>&copy; Sam Miller 2020</p>
+            </footer>
+        </div>
+    </body>
+</html>

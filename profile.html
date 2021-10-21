@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>My Profile</title>
+        <!--CSS-->
+        <link rel="stylesheet" href="bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+        <!--Javascript-->
+        <script src="jquery.js"></script>
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div class="d-flex flex-column sticky-footer-wrapper">
+            <header>
+                <div id="jumbo-div" class="jumbotron jumbotron-fluid">
+                    <div class="container">
+                        <h1 id="top-h1">About Me</h1>
+                    </div>
+                </div>
+                <nav class="navbar navbar-expand-sm bg-dark navbar-dark justify-content-center">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="profile.html">Profile</a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+
+            <main class="flex-fill">
+                <h2 id="profile-name-label" class="profile-label profile-info">My Name Is:</h2>
+                <h3 id="profile-name" class="profile-info">New User</h3>
+
+                <h2 id="profile-birthday-label" class="subsequent-profile-label profile-info">My Birthday Is:</h2>
+                <h3 id="profile-birthday" class="profile-info">April 1, 1969</h3>
+
+                <h2 id="profile-email-label" class="subsequent-profile-label profile-info">My Email Is:</h2>
+                <h3 id="profile-email" class="profile-info">newuser@example.com</h3> <!--Gonna use JS storage for profile editing-->
+
+                <a id="edit-link" href="edit.html">Edit Your Profile</a>
+            </main>
+
+            <footer>
+                <p>&copy; Sam Miller 2020</p>
+            </footer>
+        </div>
+    </body>
+</html>
